@@ -13,7 +13,7 @@ export default class Product extends Component {
          <div className="img-container p-5" 
          onClick={()=> console.log("you clicked me on the img container")}>
        
-      <Link to ="/detail">
+      <Link to ="/details">
       <img src={img} alt= "product" className="card-img-top"/>
       </Link> 
 
